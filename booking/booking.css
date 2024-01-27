@@ -1,0 +1,194 @@
+body {
+    background-image: url(https://i.imgur.com/F9bYFpo.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: 0;
+    margin: 0;
+    font-size: 16px; 
+}
+
+
+a {
+    font-family: Arial;
+    color: white;
+    text-decoration: dotted;
+}
+#topBar{
+    display: inline;
+    background-color: black;
+    display: block;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+    
+#horizon{
+    margin-top: 10px;
+    margin-left: 150px;
+    padding: 3px;  }
+#myBookings{
+    margin-top: 10px;
+    margin-left: 300px;
+    padding: 3px;   }
+#contactUs{
+    margin-top: 10px;
+    margin-left: 300px;
+    padding: 3px;}
+#myAccount{
+    margin-top: 10px;
+    margin-left: 300px;
+    padding: 3px;
+} 
+
+#heading1 {
+    display: inline-block;
+    text-align: center;
+    text-decoration: solid;
+    background-color: aquamarine;
+    width: 550px;
+    border: 10px double azure;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding: 15px;
+    position: relative;
+    left: 470px;  
+}
+
+
+
+#bookbox{
+    position: absolute;
+    display: inline-block;
+    width: 1000px;
+    height: 500px;
+    left: 265px;
+    top: 250px;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    border: solid 2px black;
+}
+#boxpic{
+    height: 200px;
+    width: 200px;
+    top: 35px;
+    left: 790px;
+    border: solid 5px aquamarine;
+    background-image: url(https://i.imgur.com/l6v3x9a.jpg);
+    background-size: cover;
+    position: absolute;
+    display: block;
+}
+
+#name {
+    position: relative;
+    display: block;
+    font-size: 30px;
+}
+
+#phno {
+    position: relative;
+    display: block;
+    font-size: 30px;
+}
+
+#days {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    top: 5px;
+}
+
+#norooms {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    top: 5px;
+}
+
+#book {
+    position: absolute ;
+    display: block;
+    width: 400px;
+    height: 100px;
+    bottom: 50px;
+    left: 300px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:aquamarine;
+}
+
+#book:active{
+    transition-duration: 3ms;
+    background-color: aqua;
+}
+input {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 20px;  
+}
+
+input:hover {
+    transform: translateX(10px) scale(1.2);
+    transition-duration: 1s;
+    transform-style: flat;
+}
+
+footer {
+    height: 50px;
+    width:100%;
+    margin-top: 500px;
+    position: absolute;
+    bottom: -200px;
+    background-color: black;
+    color: aqua;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #topBar {
+        display: block;
+    }
+
+    #horizon,
+    #myBookings,
+    #contactUs,
+    #myAccount {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    #heading1 {
+        width: 80%;
+        left: 0;
+    }
+
+    #bookbox {
+        width: 100%;
+        left: 0;
+        top: 16rem;
+    }
+
+    #boxpic {
+        left: 50%;
+        transform: translateX(55%);
+        height: 5rem;
+        width: 5rem;
+        top: 1rem;
+    }
+
+    #book {
+        width: 100%;
+        left: 0;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
