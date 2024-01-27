@@ -3,7 +3,7 @@ function checkPassword() {
     var wrongpass = document.getElementById("wrongpass"); 
 
     if (password == "123") {
-        window.location.href = "http://localhost:5500/main/main.html";
+        window.location.href = "https://pavan-5-5-5.github.io/HorizonStellar/main/main.html";
     } else if (password != "123") {
         wrongpass.style.visibility = "visible"; 
     }
